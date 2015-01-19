@@ -1,0 +1,20 @@
+option java_package = "com.sinoir.proto";
+package sinoir_common;
+
+enum Direction {
+    NORTH = 0;
+    SOUTH = 1;
+    EAST = 2;
+    WEST = 3;
+}
+
+enum WheelchairBoarding {
+    UNKNOWN = 0;
+    ACCESSIBLE = 1;
+    INACCESSIBLE = 2;
+}
+
+message Location {
+    required double latitude = 1;
+    required double longitude = 2;
+}

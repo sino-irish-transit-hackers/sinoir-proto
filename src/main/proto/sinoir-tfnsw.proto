@@ -1,0 +1,7 @@
+option java_package = "com.sinoir.proto";
+
+import "sinoir-common.proto";
+
+message Train {
+    required string id = 1;
+}
